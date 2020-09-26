@@ -1,0 +1,156 @@
+nav {
+    background: rgb(85, 83, 83);
+   padding-left: 180px;
+   padding-right: 180px;
+  }
+  @media screen and (max-width: 700px ){
+    nav{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  @media screen and (max-width: 1050px ){
+    nav{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  
+  
+  .navbar-nav .nav-link {
+      font-family: 'Source Serif Pro', serif;
+      font-size: 20px;
+      color: #000;
+      padding: 0 20px 0 20px;
+      text-transform: uppercase;
+      font-weight: normal;
+  }
+  .navbar-nav .nav-link:hover {
+     color: #ff4a00;
+  }
+  /*#about-bg {
+      height: 500px;
+      background-image: url('../../assets/img/service-bg/DM.jpg');
+      background-color: #1fd1f9;
+      background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+  }*/
+  #dropbtn {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+  }
+  
+  .dropdown-content a:hover {
+      /*background-color: #ddd;*/
+      background: transparent;
+      font-weight: bold;
+    }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .social-icons
+{
+  margin-right: 70px;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px;
+  
+}
+
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.instagram:hover
+{
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.social-icons a.twitter:hover {
+  background: #00aced;
+}
+.social-icons a.youtube:hover
+{
+  background-color: #FF0000;
+}
+.social-icons a.telegram:hover
+{
+  background-color: #0088cc;
+}
+.social-icons a.whatsapp:hover
+{
+  background-color: #4FCE5D;
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+  
