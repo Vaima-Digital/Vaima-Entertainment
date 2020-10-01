@@ -1,5 +1,5 @@
 nav {
-    background: #FAFAFA;
+background: #FAFAFA;
    padding-left: 180px;
    padding-right: 180px;
   }
@@ -78,27 +78,41 @@ nav {
     text-align: center;
     text-transform: uppercase;
     padding: 16px;
+    color: #000;
 }
 .about-para {
     text-align: justify;
     text-transform: initial;
     font-size: 16px;
 }
-.management-layout {
-    padding: 8px;
+
+.management-area {
+  color: #FFF;
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/img/vector-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  padding: 20px;
+}
+
+.area-1, .area-2 {
+  padding: 40px;
 }
 .our-management-text {
     padding: 10px;
 }
-#our-team {
-    padding: 35px;
-}
-.team-layout{
-    padding: 8px;
-}
 
 li {
     list-style-type: none;
+}
+#our-team {
+  padding: 50px;
+}
+.team {
+  
+  padding: 20px;
 }
 
 /****************** Footer *******************/
@@ -110,7 +124,7 @@ li {
   line-height:24px;
   /*color:#737373;*/
   color: #FFF;
-  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/img/footer.jpg');
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/img/footer-image.jpg');
 
   background-repeat: no-repeat;
   background-attachment: fixed;

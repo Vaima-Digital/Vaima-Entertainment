@@ -1,5 +1,5 @@
 nav {
-  background: rgb(85, 83, 83);
+  background: #FAFAFA;
  padding-left: 180px;
  padding-right: 180px;
 }
@@ -169,7 +169,7 @@ h4 {
   line-height:24px;
   /*color:#737373;*/
   color: #FFF;
-  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/img/footer.jpg');
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/img/footer-image.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -263,7 +263,7 @@ h4 {
 }
 .social-icons
 {
-  margin-right: 70px;
+  margin-right: 10px;
   margin-bottom:0;
   list-style:none
 }
