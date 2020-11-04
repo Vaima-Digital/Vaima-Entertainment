@@ -1,3 +1,4 @@
+
 nav {
 background: #FAFAFA;
    padding-left: 180px;
@@ -85,35 +86,30 @@ background: #FAFAFA;
     text-transform: initial;
     font-size: 16px;
 }
-
-.management-area {
-  color: #FFF;
-  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/img/vector-bg.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  padding: 20px;
+.logo-area {
+  
+  margin-top: 30px;
+}
+.logo-area h2 {
+  font-family: 'Offside';
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
 }
 
-.area-1, .area-2 {
-  padding: 40px;
+.management-layout {
+  padding: 8px;
 }
 .our-management-text {
-    padding: 10px;
-}
-
-li {
-    list-style-type: none;
+  padding: 10px;
 }
 #our-team {
-  padding: 50px;
+  padding: 35px;
 }
-.team {
-  
-  padding: 20px;
+.team-layout{
+  padding: 8px;
 }
+
 
 /****************** Footer *******************/
 .site-footer
@@ -151,11 +147,12 @@ li {
 }
 .site-footer a
 {
-  color:#737373;
+  /*color:#737373;*/
+  color: #FFF;
 }
 .site-footer a:hover
 {
-  color:#3366cc;
+  color: #e6683c;
   text-decoration:none;
 }
 .footer-links
@@ -294,3 +291,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     font-weight:600
   }
 }
+
+/*********** Out Team**************/
+

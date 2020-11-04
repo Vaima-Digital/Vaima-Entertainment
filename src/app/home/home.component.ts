@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { NgForm } from '@angular/forms';
+
 
 @Component({
   selector: 'app-home',
@@ -10,7 +13,7 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void{
   }
 
 }

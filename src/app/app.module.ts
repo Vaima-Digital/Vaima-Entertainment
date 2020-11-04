@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { ToastrModule } from 'ngx-toastr';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,6 +17,7 @@ import { AdvertisementComponent } from './advertisement/advertisement.component'
 import { FilmComponent } from './film/film.component';
 import { TvshowsComponent } from './tvshows/tvshows.component';
 import { ContactComponent } from './contact/contact.component';
+import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
 
 @NgModule({
   declarations: [
@@ -25,11 +29,15 @@ import { ContactComponent } from './contact/contact.component';
     AdvertisementComponent,
     FilmComponent,
     TvshowsComponent,
-    ContactComponent
+    ContactComponent,
+    NoPageFoundComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    ToastrModule.forRoot(),
     CarouselModule.forRoot()
   ],
   providers: [],

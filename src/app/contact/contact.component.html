@@ -44,133 +44,108 @@
         
     </header>
 
-    <!--<section>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <p class="text-justify">
-                      <i class="fa fa-map-marker" style="font-size: 25px;"></i> &nbsp;&nbsp; 75/2, Srirengapalayam, Rajapalayam - 626117
-                    </p>
-                    <p class="text-justify">
-                      <i class="fa fa-mobile" style="font-size: 25px;"></i> &nbsp;&nbsp;&nbsp;+91 82489 98807
-                    </p>
-                    <p class="text-justify">
-                      <i class="fa fa-envelope-o"></i> &nbsp;&nbsp; info@vaimaentertainment.com
-                    </p>
-                  </div>       
-                  <div class="col-sm-12 col-md-6">
-                    <ul class="social-icons">
-                      <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a>Facebook
-                        </li>
-                      <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a> Instagram</li>
-                      <li> <a class="twitter" href="#"><i class="fa fa-twitter"></i> </a>Twitter</li>
-                      <li><a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a> YouTube</li>
-                      <li><a class="telegram" href="#"><i class="fa fa-telegram"></i></a>Telegram</li>   
-                      <li><a class="whatsapp" href="#"><i class="fa fa-whatsapp"></i></a>Whatsapp</li>              
-                    </ul>
-                    
-                  </div>        
-            </div>
-        </div>
-    </section>-->
+    
     <br><br>
     <section>
       <div class="container">
+        <h1 class="header-title">
+          Stay With Us
+        </h1>
         <div class="row">
+          
           <div class="col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1967.8998513440729!2d77.55933385587126!3d9.438957293237163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06e9df35e0dd17%3A0x9880966e3d1a273b!2sVaima%20Vidyalaya!5e0!3m2!1sen!2sin!4v1601540595292!5m2!1sen!2sin" width="100%" height="320px;" frameborder="0" style="border:0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3935.7980296469545!2d77.55831631461074!3d9.439103793237084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06e987c100e55d%3A0x48ffd74de8ea78d7!2sVaima%20Digital%20Marketing%20Services!5e0!3m2!1sen!2sin!4v1601544993289!5m2!1sen!2sin"width="100%" height="320px;" frameborder="0" style="border:0"></iframe>
+            
           </div>
           <div class="col-md-6">
-            <form action="form.php" class="contact-form" method="post">
-        
+            <form #userForm="ngForm">
               <div class="form-group">
-                <input type="text" class="form-control" id="name" name="nm" placeholder="Name" required="" autofocus="">
-              </div>
-          
-          
-              <div class="form-group form_left">
-                <input type="email" class="form-control" id="email" name="em" placeholder="Email" required="">
-              </div>
-          
-            <div class="form-group">
-                 <input type="text" class="form-control" id="phone" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10" placeholder="Mobile No." required="">
+              <label>Name</label>
+              <input type="text" name="name"  class="form-control">
             </div>
             <div class="form-group">
-            <textarea class="form-control textarea-contact" rows="5" id="comment" name="FB" placeholder="Type Your Message/Feedback here..." required=""></textarea>
-            <br>
-              <button class="btn btn-default btn-send"> <span class="glyphicon glyphicon-send"></span> Send </button>
+              <label>Email</label>
+              <input type="email" name="email"  class="form-control">
             </div>
-           </form>
+            <div class="form-group">
+              <label>mobile</label>
+              <input type="text" name="mobile"  class="form-control">
+            </div> 
+            <div class="form-group">
+              <button class="btn btn-send">Submit</button>
+            </div>
+              
+            </form>
+
           </div>
         </div>
       </div>
     </section>
+    <br>
     <section>
       <div class="container animated fadeIn">
-
-      
-        <div class="container second-portion">
         <div class="row">
-              <!-- Boxes de Acoes -->
-            <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">							
-              <div class="icon">
-                <div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                <div class="info">
-                  <h3 class="title">MAIL & WEBSITE</h3>
-                  <p>
-                    <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp gondhiyahardik6610@gmail.com
-                    <br>
-                    <br>
-                    <i class="fa fa-globe" aria-hidden="true"></i> &nbsp www.hardikgondhiya.com
-                  </p>
-                
-                </div>
-              </div>
-              <div class="space"></div>
-            </div> 
+          <!-- Boxes de Acoes -->
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+        <div class="box">							
+          <div class="icon">
+            <div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+            <div class="info">
+              <h3 class="title" style="margin-top: 10px;">MAIL & WEBSITE</h3>
+              <p>
+                <a href="mailto:info@vaimaentertainment.in" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; info@vaimaentertainment.in</a>
+                <br>
+                <br>
+                <a href="http://vaimaentertainment.in/" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-globe" aria-hidden="true"></i> &nbsp; www.vaimaentertainment.in</a>
+              </p>
+            
+            </div>
           </div>
-            
-              <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">							
-              <div class="icon">
-                <div class="image"><i class="fa fa-mobile" aria-hidden="true"></i></div>
-                <div class="info">
-                  <h3 class="title">CONTACT</h3>
-                    <p>
-                    <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (+91)-9624XXXXX
-                    <br>
-                    <br>
-                    <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp  (+91)-756706XXXX
-                  </p>
-                </div>
-              </div>
-              <div class="space"></div>
-            </div> 
-          </div>
-            
-              <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">							
-              <div class="icon">
-                <div class="image"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                <div class="info">
-                  <h3 class="title">ADDRESS</h3>
-                    <p>
-                     <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp 15/3 Junction Plot 
-                     "Shree Krishna Krupa", Rajkot - 360001.
-                  </p>
-                </div>
-              </div>
-              <div class="space"></div>
-            </div> 
-          </div>		    
-          <!-- /Boxes de Acoes -->
-          
-          <!--My Portfolio  dont Copy this -->
-            
-        </div>
+          <div class="space"></div>
+        </div> 
       </div>
+        
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+        <div class="box">							
+          <div class="icon">
+            <div class="image"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+            <div class="info">
+              <h3 class="title" style="margin-top: 10px;">CONTACT</h3>
+                <p>
+                  <a href="tel:+918248998807" target="_black" rel="noopener noreferrer">
+                <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; (+91)-82489 98807 </a>               <br>
+                <br>
+                <a href="tel:+917598321769" target="_black" rel="noopener noreferrer">
+                <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp;  (+91)-75983 21769 </a>
+              </p>
+            </div>
+          </div>
+          <div class="space"></div>
+        </div> 
+      </div>
+        
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+        <div class="box">							
+          <div class="icon">
+            <div class="image"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+            <div class="info">
+              <h3 class="title" style="margin-top: 10px;">ADDRESS</h3>
+                <p>
+                  <a href="https://g.page/Vaima-Digital?share" target="_black" rel="noopener noreferrer">
+                 <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; 75/3 Sri Rengapalayam, Rajapalayam - 626117. Tamilnadu.</a>
+              </p>
+            </div>
+          </div>
+          <div class="space"></div>
+        </div> 
+      </div>		    
+      <!-- /Boxes de Acoes -->
       
+      <!--My Portfolio  dont Copy this -->
+        
+    </div>
       </div>
     </section>
     
