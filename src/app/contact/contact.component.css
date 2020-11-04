@@ -1,5 +1,18 @@
 @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
 @import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+.animate__animated.animate__slideInLeft  {
+  --animate-duration: 2s;
+ --animation-delay: 0.5s;
+}
+.animate__animated.animate__slideInRight {
+  --animate-duration: 2s;
+  --animation-delay: 0.5s;
+}
+.animate__animated.animate__fadeInUp  {
+  --animate-duration: 2s;
+ --animation-delay: 0.5s;
+}
+
 nav {
     background: #FAFAFA;
    padding-left: 180px;

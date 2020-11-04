@@ -1,4 +1,21 @@
 
+.animate__animated.animate__slideInLeft  {
+  --animate-duration: 2s;
+ --animation-delay: 0.5s;
+}
+.animate__animated.animate__slideInRight {
+  --animate-duration: 2s;
+  --animation-delay: 0.5s;
+}
+
+.animate__animated.animate__slideInUp  {
+  --animate-duration: 2s;
+ --animation-delay: 0.5s;
+}
+.animate__animated.animate__slideInDown {
+  --animate-duration: 2s;
+  --animation-delay: 0.5s;
+}
 nav {
 background: #FAFAFA;
    padding-left: 180px;
@@ -62,16 +79,6 @@ background: #FAFAFA;
   
   .dropdown:hover .dropdown-content {display: block;}
   
-/*#about-bg {
-    height: 500px;
-    background-image: url('../../assets/img/Slide-img.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover; 
-}*/
 .about-layout {
     padding: 20px;
 }
@@ -81,9 +88,10 @@ background: #FAFAFA;
     padding: 16px;
     color: #000;
 }
+
 .about-para {
     text-align: justify;
-    text-transform: initial;
+    font-weight: 500;
     font-size: 16px;
 }
 .logo-area {

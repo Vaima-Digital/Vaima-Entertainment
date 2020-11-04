@@ -1,3 +1,13 @@
+
+.animate__animated.animate__slideInLeft  {
+  --animate-duration: 2s;
+ --animation-delay: 0.5s;
+}
+.animate__animated.animate__slideInRight {
+  --animate-duration: 2s;
+  --animation-delay: 0.5s;
+}
+
 nav {
   background: #FAFAFA;
  padding-left: 180px;
@@ -28,18 +38,7 @@ nav {
 .navbar-nav .nav-link:hover {
    color: #ff4a00;
 }
-/*#about-bg {
-    height: 500px;
-    background-image: url('../../assets/img/service-bg/DM.jpg');
-    background-color: #1fd1f9;
-    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}*/
+
 #dropbtn {
   background-color: transparent;
   border: none;
