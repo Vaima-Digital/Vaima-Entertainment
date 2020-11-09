@@ -185,6 +185,10 @@ ul, li {
   background-position: center center;
   width: 100%;
 }
+.site-footer h4 {
+  color:#000;
+  padding-bottom: 10px;
+}
 .site-footer hr
 {
   border-top-color:#bbb;

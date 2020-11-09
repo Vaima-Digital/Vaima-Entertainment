@@ -17,25 +17,25 @@
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                <a class="nav-link" href="home">Home</a>
+                <a class="nav-link" routerLink="/home">Home</a>
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
                       <button class="nav-link" id="dropbtn">Services</button>
                       <div class="dropdown-content">
-                        <a  href="marketing">Digital Marketing</a>
-                        <a  href="website">Website Development</a>
-                        <a  href="advertisement">Advertisement</a>
-                        <a  href="tvshows">Broadcasting Channel</a>
-                        <a  href="film">Film Production</a>
+                        <a  routerLink="/marketing">Digital Marketing</a>
+                        <a  routerLink="/website">Website Development</a>
+                        <a  routerLink="/advertisement">Advertisement</a>
+                        <a  routerLink="/tvshows">Broadcasting Channel</a>
+                        <a  routerLink="/film">Film Production</a>
                       </div>
                     </div>
                   </li>
                 <li class="nav-item">
-                <a class="nav-link" href="about">About</a>
+                <a class="nav-link" routerLink="/about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact">Contact</a>
+                    <a class="nav-link" routerLink="/contact">Contact</a>
                 </li>
                 
             </ul>
@@ -44,6 +44,7 @@
     </header>
     <section>
         <div class="container">
+            <h2 id="vaima-title" class="text-center">VAIMA PRIVATE LIMITED</h2>
             <div class="row">
                 <div class="col-md-6">
                     <div class="about-layout animate__animated animate__slideInLeft">
@@ -66,7 +67,7 @@
                             </li>
                             <li >
                                 <a href="https://vaimaschools.in/">
-                                    <img src="../../assets/img/Management and Team/Vaima Vidyalaya.PNG" target="_black" rel="noopener noreferrer"alt="Logo" style="height:100px;">
+                                    <img src="../../assets/img/Management and Team/Vaima Vidyalaya.png" target="_black" rel="noopener noreferrer"alt="Logo" style="height:100px;">
                                 </a>  
                                 <a href="https://casadimirmatricschool.in/">
                                     <img src="../../assets/img/Management and Team/CASA DI MIR LOGO.png" target="_black" rel="noopener noreferrer"alt="Logo" style="height:70px;">
@@ -74,10 +75,10 @@
                             </li>
                             <li>
                                 <a href="http://vaimavidyalaya.in/">
-                                    <img src="../../assets/img/Management and Team/Prasharda Padasala.PNG" target="_black" rel="noopener noreferrer"alt="Logo" style="height:70px;">
+                                    <img src="../../assets/img/Management and Team/Prasharda Padasala.png" target="_black" rel="noopener noreferrer"alt="Logo" style="height:70px;">
                                 </a>
                                 <a href="http://vaimavidyalaya.in/">
-                                    <img src="../../assets/img/Management and Team/Vaima Kids.PNG" target="_black" rel="noopener noreferrer" alt="Logo" style="height:70px;">
+                                    <img src="../../assets/img/Management and Team/Vaima Kids.png" target="_black" rel="noopener noreferrer" alt="Logo" style="height:70px;">
                                 </a>
                             </li>
                             <li class="text-center" style="margin-top: 30px;">
@@ -103,33 +104,41 @@
     <div class="container">
         <h3 class="about-title">Our managment</h3>
         <div class="row animate__animated animate__slideInUp">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="management-layout">
-                    <img src="../../assets/img/Management and Team/President.JPG" class="mx-auto d-block" style="width: 130px; height: 130px; border-radius: 50%;" alt="">
+                    <img src="../../assets/img/Management and Team/President.jpg" class="mx-auto d-block" style="width: 130px; height: 130px; border-radius: 50%;" alt="">
                     <h5 class="text-center our-management-text">President</h5>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="team-layout">
+                    <img src="../../assets/img/Management and Team/Executive Vice President.jpg" class="mx-auto d-block" style="width: 130px; height: 130px; border-radius: 50%;" alt="">
+                    <h5 class="text-center our-management-text">Executive Vice President</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="management-layout">
                     <img src="../../assets/img/Management and Team/Vice President.jpg" class="mx-auto d-block" style="width: 130px; height: 130px; border-radius: 50%;" alt="">
                     <h5 class="text-center our-management-text">Vice President</h5>
                 </div>
-            </div>
-            <div class="col-md-3">
+                
+            </div>               
+        </div>
+        <div class="row animate__animated animate__slideInUp">
+            <div class="col-md-6 offset-1">
                 <div class="management-layout">
                     <img src="../../assets/img/Management and Team/CEO1.jpg" class="mx-auto d-block" style="width: 130px; height: 130px; border-radius: 50%;" alt="">
                     <h5 class="text-center our-management-text">CEO</h5>
                 </div>
                 
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <div class="management-layout">
                     <img src="../../assets/img/Management and Team/COO1.jpeg" class="mx-auto d-block" style="width: 130px; height: 130px; border-radius: 50%;" alt="">
                     <h5 class="text-center our-management-text">COO</h5>
                 </div>
                 
             </div>
-                           
         </div>
     </div>
 </section>
@@ -137,42 +146,41 @@
     <div class="container">
         <h3 class="about-title">OUR TEAM</h3>
         <div class="row animate__animated animate__slideInDown">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="team-layout">
                     <img src="../../assets/img/Management and Team/Manager1.jpeg" class="mx-auto d-block" style="width: 130px; height: 130px; border-radius: 50%;" alt="">
                     <h5 class="text-center our-management-text">Mohan</h5>
                 </div>
             </div>
             
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="team-layout">
                     <img src="../../assets/img/Management and Team/Editor.jpeg" class="mx-auto d-block" style="width: 130px; height: 130px; border-radius: 50%;" alt="">
                     <h5 class="text-center our-management-text">Ram</h5>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="team-layout">
                     <img src="../../assets/img/Management and Team/Graphic Designer.jpeg" class="mx-auto d-block" style="width: 130px; height: 130px; border-radius: 50%;" alt="">
                     <h5 class="text-center our-management-text">Sathya</h5>
                 </div>
             </div>
-            <div class="col-md-3">
+            
+        </div>
+        <div class="row animate__animated animate__slideInDown">
+            <div class="col-md-4">
                 <div class="team-layout">
                     <img src="../../assets/img/Management and Team/SubEditor.jpeg" class="mx-auto d-block" style="width: 130px; height: 130px; border-radius: 50%;" alt="">
                     <h5 class="text-center our-management-text">Karpagam</h5>
                 </div>
-            </div>
-        </div>
-        <div class="row animate__animated animate__slideInDown">
-            
-            
-            <div class="col-md-6">
+            </div>            
+            <div class="col-md-4">
                 <div class="team-layout">
                     <img src="../../assets/img/Management and Team/Ramya.jpeg" class="mx-auto d-block" style="width: 130px; height: 130px; border-radius: 50%;" alt="">
                     <h5 class="text-center our-management-text">Anika</h5>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="team-layout">
                     <img src="../../assets/img/Management and Team/Malavika.jpeg" class="mx-auto d-block" style="width: 130px; height: 130px; border-radius: 50%;" alt="">
                     <h5 class="text-center our-management-text">Malavika</h5>
@@ -187,10 +195,10 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6"x>
-          
+            <h4>VAIMA PRIVATE LIMITED</h4>
             <p class="text-justify">
                 <a href="https://g.page/Vaima-Digital?share" target="_black" rel="noopener noreferrer">
-                <i class="fa fa-map-marker" style="font-size: 25px;"></i> &nbsp;&nbsp; 75/2, Srirengapalayam, Rajapalayam - 626117</a>
+                <i class="fa fa-map-marker" style="font-size: 25px;"></i> &nbsp;&nbsp; 75/3, Srirengapalayam, Rajapalayam - 626117</a>
               </p>
               <p class="text-justify">
                 <a href="tel:+918248998807" target="_black" rel="noopener noreferrer">
@@ -218,7 +226,7 @@
             <li><a class="instagram" href="https://www.instagram.com/vaimaentertainment/"><i class="fa fa-instagram"></i></a></li>
             <li><a class="youtube" href="https://www.youtube.com/channel/UC279Y7xF5Kpac27j-rdlA9w"><i class="fa fa-youtube-play"></i></a></li>
             <li><a class="telegram" href="#"><i class="fa fa-telegram"></i></a></li>   
-            <li><a class="whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>   
+            <li><a class="whatsapp" href="https://wa.me/message/X2YLOY7Q3U7QG1"><i class="fa fa-whatsapp"></i></a></li>   
           </ul>
         </div>
       </div>
